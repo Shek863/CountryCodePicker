@@ -3,10 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dialog_rly"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp"
-    >
+    android:padding="8dp">
 
   <TextView
       android:id="@+id/title_tv"
@@ -41,7 +40,7 @@
   <ListView
       android:id="@+id/country_dialog_lv"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:layout_height="wrap_content"
       android:layout_below="@+id/search_edt"
       android:dividerHeight="2dp"/>
 
